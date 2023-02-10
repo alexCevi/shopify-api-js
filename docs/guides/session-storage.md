@@ -29,7 +29,7 @@ The previous implementations of `SessionStorage` are now available in their own 
 |   accessToken    |      string      |     no     |
 | onlineAccessInfo | OnlineAccessInfo |     no     |
 
-> **Note** 1. These data are the same as the `SessionParams` object that's passed into the `Session` class constructor.
+> **Note** 1. This data is the same as the `SessionParams` object that's passed into the `Session` class constructor.
 
 > **Note** 2. If `isOnline` is `true`, then `expires` and `onlineAccessInfo` will be populated.
 
